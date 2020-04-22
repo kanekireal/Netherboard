@@ -79,6 +79,15 @@ public class Netherboard {
     public BPlayerBoard getBoard(Player player) {
         return boards.get(player);
     }
+    
+     /**
+     * Gets all boards.
+     *
+     * @return          the map boards
+     */
+    public BPlayerBoard getBoards() {
+        return boards;
+    }
 
     /**
      * Returns the instance of the Netherboard class.
